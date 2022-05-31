@@ -50,13 +50,3 @@ resource "azurerm_storage_container" "container" {
 output "blobstorage-name" {
   value = azurerm_storage_account.storagetf.name
 }
-
-output "blobstorage-primary-key" {
-  value = azurerm_storage_account.storagetf.primary_access_key
-  sensitive = true
-}
-
-output "bloblstorage-secondary-key" {
-  value = azurerm_storage_account.storagetf.secondary_access_key
-  sensitive = true
-}
