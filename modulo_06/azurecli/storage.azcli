@@ -1,0 +1,14 @@
+# login on azure
+az login
+
+# creating resource group
+az group create --location brazilsouth --name terraformstate
+
+# creating storage account
+az storage account create --name tfstatetreinamento --resource-group terraformstate --location brazilsouth --sku Standard_LRS
+
+# creating storage container
+az storage container create -n terraformstate --acount-name tfstatetreinamento
+
+# get account key
+az storage account keys list -g terraformstate -n tfstatetreinamento
