@@ -15,7 +15,7 @@ variable "tags" {
   description = "Tags nos Recursos e Servicos do Azure"
   default = {
     Environment = "Development"
-    Product     = "Desk4Me"
+    Product     = "MyProduct"
   }
 }
 

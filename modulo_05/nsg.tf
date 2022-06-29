@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "vnetrg" {
   name     = "Xavier-Vnet-ResourceGroup"
   tags = {
     Environment = "Development"
-    Product     = "Desk4Me"
+    Product     = "MyProduct"
     Date        = formatdate("DD MMM YYYY hh:mm ZZZ", timestamp())
   }
 }

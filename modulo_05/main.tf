@@ -18,7 +18,7 @@ resource "azurerm_resource_group" "resource-group" {
   name     = "XavierResourceGroup-${count.index}"
   tags = {
     Environment = lower("Development")
-    Product     = upper("Desk4Me")
+    Product     = upper("MyApp")
     Date        = formatdate("DD MMM YYYY hh:mm ZZZ", timestamp())
     Author      = title("matheus xavier")
   }
