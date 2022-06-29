@@ -3,7 +3,7 @@ terraform {
     resource_group_name  = "BeWelcome-Development"
     storage_account_name = "bewelcomestoragedev"
     container_name       = "terraformstate"
-    key                  = "0JzOylBaF8BPHcni3aVcI6LrczOu8AlAAPIJvKo4JueV6pyQbM5KOvbSTOVyNXlOgtLljkZQrmGM+AStIeYitw=="
+    key                  = "key_goes_here"
   }
 }
 
